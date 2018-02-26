@@ -76,7 +76,9 @@ define(function () {
                 '    pattern.addSound(hh, i)',
                 '}',
                 '',
-                'pattern.addSound(hh, 12.75)'
+                'pattern.addSound(hh, 12.75)',
+                '',
+                ''
             ],
             base: [
                 '// Les boucles for permettent de ne pas réécrire plusieurs fois des lignes de code semblables. Mais ici la boucle for ne se répète pas assez de fois. Essaie d\'utiliser un nombre un peu plus grand que 12 dans i <= 12',
@@ -86,7 +88,9 @@ define(function () {
                 '    pattern.addSound(hh, i)',
                 '}',
                 '',
-                'pattern.addSound(hh, 12.75)'
+                'pattern.addSound(hh, 12.75)',
+                '',
+                ''
             ]
         },
         {
@@ -110,7 +114,9 @@ define(function () {
                 'pattern.addSound(kick, 13)',
                 'pattern.addSound(kick, 14.5)',
                 'pattern.addSound(kick, 15.5)',
-                'pattern.addSound(kick, 16.25)'
+                'pattern.addSound(kick, 16.25)',
+                '',
+                ''
             ],
             base: [
                 '// Les boucles for permettent de ne pas réécrire plusieurs fois des lignes de code semblables. Mais ici la boucle for ne se répète pas assez de fois. Essaie d\'utiliser un nombre un peu plus grand que 8 dans i < 8',
@@ -133,7 +139,9 @@ define(function () {
                 'pattern.addSound(kick, 13)',
                 'pattern.addSound(kick, 14.5)',
                 'pattern.addSound(kick, 15.5)',
-                'pattern.addSound(kick, 16.25)'
+                'pattern.addSound(kick, 16.25)',
+                '',
+                ''
             ]
         },
         {
@@ -144,7 +152,9 @@ define(function () {
                 '    pattern.addSound(rim, i)',
                 '}',
                 '',
-                'pattern.addSound(rim, 12.75)'
+                'pattern.addSound(rim, 12.75)',
+                '',
+                ''
             ],
             base: [
                 '// Les boucles for permettent de ne pas réécrire plusieurs fois des lignes de code semblables. Mais ici la boucle for ne se répète pas assez de fois. Essaie d\'utiliser un nombre un peu plus grand que 11 dans i<=11',
@@ -154,7 +164,9 @@ define(function () {
                 '    pattern.addSound(rim, i)',
                 '}',
                 '',
-                'pattern.addSound(rim, 12.75)'
+                'pattern.addSound(rim, 12.75)',
+                '',
+                ''
             ]
         },
         {
@@ -163,7 +175,9 @@ define(function () {
                 'for (var i = 1.5; i < 16; i = i + 1)',
                 '{',
                 '    pattern.addSound(shaker1, i)',
-                '}'
+                '}',
+                '',
+                ''
             ],
             base: [
                 '// Les boucles for permettent de ne pas réécrire plusieurs fois des lignes de code semblables. Mais ici la boucle for ne se répète pas assez de fois. Essaie d\'utiliser un nombre un peu plus grand que 10 dans i<10',
@@ -171,7 +185,9 @@ define(function () {
                 'for (var i = 1.5; i < 10; i = i + 1)',
                 '{',
                 '    pattern.addSound(shaker1, i)',
-                '}'
+                '}',
+                '',
+                ''
             ]
         },
         {
@@ -180,24 +196,32 @@ define(function () {
                 'for (var i = 3; i < 16; i = i + 4)',
                 '{',
                 '    pattern.addSound(snare, i)',
-                '}'
+                '}',
+                '',
+                ''
             ],
             base: [
                 '// Les boucles for permettent de ne pas réécrire plusieurs fois des lignes de code semblables. Mais ici la boucle for ne se répète pas assez de fois. Essaie d\'utiliser un nombre un peu plus grand que 10 dans i<10',
                 'for (var i = 3; i < 10; i = i + 4)',
                 '{',
                 '    pattern.addSound(snare, i)',
-                '}'
+                '}',
+                '',
+                ''
             ]
         },
         {
             solution: [
                 '// Il fallait mettre 16,75 entre parenthèse pour que le sample soit joué au bon moment.',
-                'pattern.addSound(tom, 16.75)'
+                'pattern.addSound(tom, 16.75)',
+                '',
+                ''
             ],
             base: [
                 '//Respire ! Tu peux le faire. Et si tu changeais le nombre entre parenthèses ?',
-                'pattern.addSound(tom, 12.75)'
+                'pattern.addSound(tom, 12.75)',
+                '',
+                ''
             ]
         }
     ]
